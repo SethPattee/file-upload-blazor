@@ -15,7 +15,7 @@ jobs:
           echo "made it to the end"
           #run image
           docker run -d \
-          -p 1112:1232 \
+          -p 1112:8080 \
           --name seth-file-upload-blazor \
           seth-file-upload-blazor
           echo "Made it to the end!!!"
