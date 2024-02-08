@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
       - run: |
           #build image
-          docker build -t seth-file-upload-blazor
+          docker build -t seth-file-upload-blazor .
           #run image
           docker run -d seth-file-upload-blazor
           echo "made it to the end"
